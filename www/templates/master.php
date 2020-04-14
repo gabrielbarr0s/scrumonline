@@ -8,7 +8,7 @@ include __DIR__ . "/../config.php";
     <button class="btn btn-lg btn-danger wipe" ng-click="master.wipe()">Wipe</button>
   </div>
   <div class="col-xs-10 col-sm-8 col-md-10">
-    <h1>{{ master.id }} - {{ master.name }}</h1>
+    <h1>Session Number: {{ master.id }} - {{ master.name }}</h1>
   </div>
   <div class="hidden-xs col-sm-2 col-md-1">
     <h1>{{ master.stopwatchElapsed }}</h1>
@@ -56,7 +56,7 @@ include __DIR__ . "/../config.php";
 <div class="row">
   <div class="hidden-xs hidden-sm col-md-5">
     <h2>Invite members</h2>
-    <p>Invite members to join your session. Session id: <strong ng-bind="master.id"></strong></p>
+    <p>Invite members to join your session. Session Number: <strong ng-bind="master.id"></strong></p>
 <?php
 $joinUrl = $host . "/join/";
 ?>
@@ -74,7 +74,7 @@ $joinUrl = $joinUrl . "{{ master.joinFragment }}";
       <!-- Iterate over votes as they represent members as well -->
       <li class="list-group-item" ng-repeat="member in master.votes track by member.id">{{$index + 1}}. {{member.name}}</li>
     </ul>
-    <button class="btn btn-success" ng-click="master.teamComplete = true">Team complete</button>
+    <button class="btn btn-success" ng-click="master.teamComplete = true">My team is complete</button>
   </div>   
     
   <!-- Statistics column -->
