@@ -13,7 +13,7 @@ $host = "https://planningpoker.barros.me";
 
 $cardSets = [
     // Card set used to estimate hours as different fractions and multiples of a working day
-    ['0','1/2','1','2','4','8','12','24','36','60','&#8734;','?','&#9749;'],
+    ['0','&‌#189;','1','2','4','8','12','24','36','60','&#8734;','?','&#9749;'],
     // Standard fibonaci like series of values
     ['0','1', '2', '3', '5', '8', '13', '20', '40', '100','&#8734;','?','&#9749;'],
     // Powers of two used by other teams
