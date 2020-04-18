@@ -5,10 +5,10 @@ include "config.php";
 <div class="row">
   <article class="col-xs-12 col-lg-10 col-lg-offset-1">
     <p>
-      <h2>Planning Poker Online</h2>
-      Welcome to my open source Planning Poker Online web app. Use of this app is free of charge for everyone. As a scrum master just start a named session 
-      and invite your team to join you. It is recommended to display the scrum master view on the big screen (TV or projector) and let everyone else 
-      join via smartphone. To join a session just enter the session number displayed in the heading of the scrum master view or use the QR-Code.
+      <h2>Planning Scrum Poker Online</h2>
+      Welcome to my open source Planning Scrum Poker Online app. Use of this app is free of charge for everyone. As a scrum master just start a named session 
+      and invite your team to join you. It is recommended to display the scrum master view at <b>https://planningpoker.barros.me/</b> with a big screen (TV or projector) and let everyone else 
+      join via the smartphone app. To join a session just enter the session number displayed in the heading of the scrum master view or use the QR-Code.
     </p>
   </article>
 </div>
@@ -68,7 +68,7 @@ include "config.php";
           <div class="form-group" ng-class="{'has-error': join.idError}">
             <label>Session Number:</label>
             <div class="has-feedback">
-              <input type="text" class="form-control" ng-model="join.id" ng-change="join.passwordCheck()" placeholder="4711">
+              <input type="text" class="form-control" ng-model="join.id" ng-change="join.passwordCheck()" placeholder="1234">
               <span ng-if="join.idError" class="glyphicon glyphicon-remove form-control-feedback"></span>
             </div>
           </div>

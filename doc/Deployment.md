@@ -20,7 +20,7 @@ The repository provides a sample config (config-sample.php).
 Rename the file to `config.php` and make your changes.
 
 ````
-$ cp src/sample-config.php src/config.php
+$ cp src/config-sample.php src/config.php
 ````
 
 # Database

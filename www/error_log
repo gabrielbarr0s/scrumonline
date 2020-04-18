@@ -241,3 +241,116 @@ Stack trace:
 #1 /home2/barros26/planningpoker.barros.me/api.php(17): PollController->current('7')
 #2 {main}
   thrown in /home2/barros26/planningpoker.barros.me/bootstrap.php on line 45
+[13-Apr-2020 22:47:03 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('8', '7')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[13-Apr-2020 22:47:11 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('8')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('8')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[13-Apr-2020 22:47:13 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('8')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('8')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[13-Apr-2020 22:47:19 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('8')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('8')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[14-Apr-2020 13:33:01 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('10')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('10')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:08:54 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('11')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('11')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:09:05 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('1828')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('1828')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:12:04 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:07 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:08 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:09 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:10 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:11 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Can not modify non-existing or completed poll! in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php:44
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/api.php(14): PollController->vote('1829', '8')
+#1 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php on line 44
+[15-Apr-2020 21:12:28 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:12:28 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:12:29 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(126): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->current('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:12:29 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:12:30 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:24:04 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45
+[15-Apr-2020 21:24:06 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Unknown session id! in /home2/barros26/planningpoker.barros.me/www/bootstrap.php:45
+Stack trace:
+#0 /home2/barros26/planningpoker.barros.me/www/controllers/poll-controller.php(185): ControllerBase->getSession('1829')
+#1 /home2/barros26/planningpoker.barros.me/www/api.php(17): PollController->topic('1829')
+#2 {main}
+  thrown in /home2/barros26/planningpoker.barros.me/www/bootstrap.php on line 45

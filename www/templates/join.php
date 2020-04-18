@@ -7,7 +7,7 @@
           <div class="form-group" ng-class="{'has-error': join.idError}">
             <label>Session Number:</label>
             <div class="has-feedback">
-              <input type="text" class="form-control" ng-model="join.id" placeholder="4711">
+              <input type="text" class="form-control" ng-model="join.id" placeholder="1234">
               <span ng-if="join.idError" class="glyphicon glyphicon-remove form-control-feedback"></span>
             </div>
           </div>
