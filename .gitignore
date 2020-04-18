@@ -1,6 +1,6 @@
 vendor/
 node_modules/
-src/config.php
+www/config.php
 *.lock
 proxies/
 .vagrant/
