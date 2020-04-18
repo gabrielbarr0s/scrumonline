@@ -1,4 +1,4 @@
-# Planning Poker Online
+# Planning Cards Online
 
 PHP web app for planning poker. It includes a master view for the ScrumMaster and a simple responsive card view for the team. A deployed demo is available at https://planningcards.online/
 
