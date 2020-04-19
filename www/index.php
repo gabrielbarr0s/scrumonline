@@ -17,7 +17,7 @@ foreach($templates as $index=>$template)
 <head>
   <meta charset="utf-8">
   <base href="/">
-  <title>Planning Cards Online</title>
+  <title>Planning Cards</title>
   <meta name="description" content="Planning Cards Online is an open source web implementation of planning poker for scrum teams to determine the complexity of stories. It aims to integrate ticketing systems like JIRA, Github or Gitlab.">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,7 +67,7 @@ foreach($templates as $index=>$template)
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    	<a class="navbar-brand" href="/">Planning Cards Online</a>
+    	<a class="navbar-brand" href="/">Planning Cards</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">

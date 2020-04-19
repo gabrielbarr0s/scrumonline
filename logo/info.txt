@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: EpoClassic-Lig
+font link: https://www.fontspring.com/fonts/hoftype/epocaclassic/epoca-classic-light
+font author: Hoftype
+font author site: http://www.hoftype.com/
+
+
+icon designer: Henry Ryder
+icon designer link: /henryryder
+        
+{"bg":"#D2EAF5","icon-gradient-0":"#000A68","icon-gradient-1":"#00C4EE","font":"#022239","slogan":"#16364d"}
+      
