@@ -1,7 +1,4 @@
-vendor/
-node_modules/
 www/config.php
-*.lock
-proxies/
-.vagrant/
+.vscode
+
 mysql_db
