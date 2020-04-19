@@ -5,18 +5,18 @@ include "config.php";
 <div class="row">
   <article class="col-xs-12 col-lg-10 col-lg-offset-1">
     <h2>Planning Cards Online</h2>
-    <p>Welcome to the open source Planning Cards Online app.</p>
-	<p>The use of this app is free of charge for everyone. As a Scrum Master just start a named session and invite your team to join you.</p>
-	<p>It is recommended to display the scrum master view at <b>https://planningcards.online/</b> with a big screen (TV or projector) and let everyone else join via the smartphone app.</p>
-	<p>To join a session just enter the session number displayed in the heading of the Scrum Master view</p>
+    <p>Welcome to the open source Planning Cards Online app. The use of this app is free of charge for everyone.
+	<p>As a Scrum Master just start a session and invite your team to join you.</p>
+	<p>It is recommended to display the Scrum Master view at <b>https://planningcards.online/</b> with a big screen (TV or projector) and let everyone else join via the smartphone app.</p>
+	<p>To join a session just enter the session number displayed in the heading of the Scrum Master view.</p>
   </article>
 </div>
             
 <div class="row">
-  <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Create or Join a Session</h2>
+  <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Join or Create a Session</h2>
   
   <!-- Join session panel -->
-  <div class="col-xs-12 col-sm-6 col-lg-5" ng-controller="JoinController as join">
+  <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="JoinController as join">
     <div class="panel panel-default">
       <div class="panel-heading">Join</div>
       <div class="panel-body">
@@ -49,7 +49,7 @@ include "config.php";
   </div>
   
   <!-- Create session panel -->
-  <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="CreateController as create">
+  <div class="col-xs-12 col-sm-6 col-lg-5" ng-controller="CreateController as create">
     <div class="panel panel-default">
       <div class="panel-heading">Create</div>
       <div class="panel-body">  
