@@ -3,10 +3,12 @@
    ========================================================================== */
    
 /* Container */
+/*
 .container-fluid.main, .container-fluid.navigation {
   padding-left: 10px;
   padding-right: 10px;
 }
+*/
 
 .container-fluid.main {
   min-height: 800px;
