@@ -4,7 +4,7 @@ include "config.php";
 <!-- Introduction -->
 <div class="row">
   <article class="col-xs-12 col-lg-10 col-lg-offset-1">
-    <h3>Welcome to the Planning Cards app!</h3>
+    <h3>Welcome to the Planning Cards!</h3>
     <p>This app is open source free of charge for everyone.</p>
 	<p>As a Scrum Master just create a session and invite your team to join you.</p>
 	<p>To join a session just enter the session number.</p>
