@@ -18,7 +18,7 @@ foreach($templates as $index=>$template)
   <meta charset="utf-8">
   <base href="/">
   <title>Planning Cards</title>
-  <meta name="description" content="Planning Cards is online implementation of Planning Poker&#8482; for Scrum Masters and their teams. It's used to determine the complexity of stories.">  
+  <meta name="description" content="Planning Cards is online implementation of Planning Poker&#174; for Scrum Masters and their teams. It's used to determine the complexity of Scrum Stories.">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 user-scalable=no">
   
