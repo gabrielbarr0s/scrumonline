@@ -62,7 +62,7 @@ include "config.php";
           </div>
           <div class="form-group">
             <label>Cards:</label>
-            <div class="dropdown">
+            <div class="dropdown dropup">
               <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
                 <span ng-bind-html="create.selectedSet.value"></span>
                 <span class="caret"></span>
