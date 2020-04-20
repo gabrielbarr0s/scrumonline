@@ -11,12 +11,12 @@ include "config.php";
 </div>
             
 <div class="row">
-  <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Join or Create a Session</h2>
+  <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Join or Create a session:</h2>
   
   <!-- Join session panel -->
   <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="JoinController as join">
     <div class="panel panel-default">
-      <div class="panel-heading">Join</div>
+      <div class="panel-heading">Join session</div>
       <div class="panel-body">
         <form role="form">
           <div class="form-group" ng-class="{'has-error': join.idError}">
@@ -49,7 +49,7 @@ include "config.php";
   <!-- Create session panel -->
   <div class="col-xs-12 col-sm-6 col-lg-5" ng-controller="CreateController as create">
     <div class="panel panel-default">
-      <div class="panel-heading">Create</div>
+      <div class="panel-heading">Create session</div>
       <div class="panel-body">  
         <form role="form">
           <div class="form-group" ng-class="{'has-error': create.nameError}">
