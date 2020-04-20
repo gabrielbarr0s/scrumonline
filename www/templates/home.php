@@ -4,11 +4,9 @@ include "config.php";
 <!-- Introduction -->
 <div class="row">
   <article class="col-xs-12 col-lg-10 col-lg-offset-1">
-    <h2>Planning Cards Online</h2>
-    <p>Welcome to the open source Planning Cards Online app. The use of this app is free of charge for everyone.
-	<p>As a Scrum Master just start a session and invite your team to join you.</p>
-	<p>It is recommended to display the Scrum Master view at <b>https://planningcards.online/</b> with a big screen (TV or projector) and let everyone else join via the smartphone app.</p>
-	<p>To join a session just enter the session number displayed in the heading of the Scrum Master view.</p>
+    <p>Welcome to the Planning Cards app. This app is open source and the use of this app is free of charge for everyone.
+	<p>As a Scrum Master just create a session and invite your team to join you.</p>
+	<p>To join a session just enter the session number.</p>
   </article>
 </div>
             
