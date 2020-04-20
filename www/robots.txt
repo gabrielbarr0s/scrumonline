@@ -1,5 +1,0 @@
-# www.robotstxt.org/
-
-# Per default forbid crawling to avoid google penalities of self hosted sites
-User-agent: * 
-Disallow: /
