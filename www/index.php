@@ -18,7 +18,7 @@ foreach($templates as $index=>$template)
   <meta charset="utf-8">
   <base href="/">
   <title>Planning Cards</title>
-  <meta name="description" content="Planning Cards Online is an open source web implementation of planning poker for scrum teams to determine the complexity of stories. It aims to integrate ticketing systems like JIRA, Github or Gitlab.">  
+  <meta name="description" content="Planning Cards is online implementation of Planning Poker&#8482; for Scrum Masters and their teams. It's used to determine the complexity of stories.">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 user-scalable=no">
   
@@ -27,7 +27,6 @@ foreach($templates as $index=>$template)
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d2eaf5">
-  <meta name="apple-mobile-web-app-title" content="Planning Cards">
   <meta name="application-name" content="Planning Cards">
   <meta name="msapplication-TileColor" content="#d2eaf5">
   <meta name="theme-color" content="#d2eaf5">
