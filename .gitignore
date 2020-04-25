@@ -1,4 +1,4 @@
-www/config.php
+src/config.php
 .vscode
 
 mysql_db
