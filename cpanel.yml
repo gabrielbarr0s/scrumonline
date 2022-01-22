@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/gab53492/planningcards.app/
+    - /bin/cp -R * $DEPLOYPATH
