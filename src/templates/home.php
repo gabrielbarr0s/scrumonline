@@ -14,7 +14,7 @@ include "config.php";
   <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Create or join a session:</h2>
   
   <!-- Create session panel -->
-  <div class="col-xs-12 col-sm-6 col-lg-5" ng-controller="CreateController as create">
+  <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="CreateController as create">
     <div class="panel panel-default">
       <div class="panel-heading">Create</div>
       <div class="panel-body">  
@@ -57,7 +57,7 @@ include "config.php";
   </div>
 
   <!-- Join session panel -->
-  <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="JoinController as join">
+  <div class="col-xs-12 col-sm-6 col-lg-5" ng-controller="JoinController as join">
     <div class="panel panel-default">
       <div class="panel-heading">Join</div>
       <div class="panel-body">
