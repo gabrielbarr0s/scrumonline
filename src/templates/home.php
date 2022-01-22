@@ -4,15 +4,14 @@ include "config.php";
 <!-- Introduction -->
 <div class="row">
   <article class="col-xs-12 col-lg-10 col-lg-offset-1">
-    <h3>Welcome to the Planning Cards!</h3>
+  <h1>Welcome to the Planning Cards!</h1>
 	<p>As a Scrum Master just create a session and invite your team to join you.</p>
 	<p>To join a session just enter the session number.</p>
   </article>
 </div>
             
 <div class="row">
-  <h2 class="col-xs-12 col-lg-10 col-lg-offset-1">Create or join a session:</h2>
-  
+    
   <!-- Create session panel -->
   <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1" ng-controller="CreateController as create">
     <div class="panel panel-default">
