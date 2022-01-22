@@ -1,4 +1,6 @@
 src/config.php
-.vscode
-
+*.lock
+!composer.lock
+proxies/
+.vagrant/
 mysql_db
