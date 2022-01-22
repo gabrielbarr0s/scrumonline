@@ -9,7 +9,7 @@ $conn = array(
 );
 
 // This is used to create the join link
-$host = "https://planningpoker.barros.me";
+$host = "https://planningcards.app";
 
 $cardSets = [
     // Card set used to estimate hours as different fractions and multiples of a working day
@@ -33,7 +33,7 @@ $cardSets = [
 ];
 
 // Src tree for documentation linking from page
-$src = "https://github.com/Toxantron/scrumonline/tree/master";
+$src = "https://github.com/gabrielbarr0s/planningcards";
 
 // Active ticketing plugins of the page
 $plugins = [
